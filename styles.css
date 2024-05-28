@@ -1,0 +1,148 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+  background-color: rgba(252, 239, 218, 0.1); }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgba(253, 239, 215, 0.41); }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: relative;
+  z-index: 10; }
+  header .logo img {
+    height: 50px; }
+  header nav {
+    flex: 1;
+    display: flex;
+    justify-content: center; }
+    header nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px; }
+      header nav ul li a {
+        text-decoration: none;
+        color: #000;
+        font-weight: bold; }
+  header .mediaIcons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: 100px; }
+    header .mediaIcons img {
+      height: 30px;
+      width: 30px; }
+  header .contact a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold; }
+
+.background {
+  position: absolute;
+  background-size: auto;
+  width: min-content;
+  height: min-content;
+  z-index: 1; }
+  .background img {
+    width: 100%;
+    height: auto; }
+
+#firstPage {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(252, 239, 218, 0.1); }
+  #firstPage img {
+    position: absolute;
+    right: 0; }
+  #firstPage .hero {
+    text-align: left;
+    margin-left: 5%;
+    padding: 50px 20px;
+    width: 60%;
+    position: relative;
+    z-index: 5; }
+    #firstPage .hero h1 {
+      font-size: 3em;
+      font-weight: bolder;
+      font-family: "Arial Black"; }
+    #firstPage .hero p {
+      font-size: 1.2em;
+      margin: 20px 0; }
+    #firstPage .hero button {
+      padding: 10px 20px;
+      font-size: 1em;
+      background: linear-gradient(134.04deg, #FFDF00 -7.01%, #FFB800 109.07%);
+      color: #fff;
+      border: none;
+      cursor: pointer; }
+
+.controls {
+  display: flex;
+  justify-content: center; }
+  .controls a {
+    padding-top: 15vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    font-family: "Arial Black"; }
+    .controls a svg {
+      margin-left: 40%; }
+
+#aboutTestTask {
+  margin-left: 5%;
+  padding-top: 10vh; }
+  #aboutTestTask img {
+    height: 35%;
+    width: 35%;
+    margin-right: 5%; }
+  #aboutTestTask .container {
+    display: flex;
+    flex-direction: row; }
+  #aboutTestTask .text {
+    font-family: Arial, sans-serif; }
+    #aboutTestTask .text p {
+      font-weight: bold; }
+
+#aboutUs {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background: linear-gradient(134.04deg, #FFDF00 -7.01%, #FFB800 109.07%);
+  padding-left: 5%;
+  margin: 12vh 0;
+  height: 50vh; }
+  #aboutUs main {
+    width: 50%; }
+    #aboutUs main h2, #aboutUs main h5 {
+      font-family: "Arial Black"; }
+
+footer {
+  width: 100%; }
+  footer div.text {
+    background: linear-gradient(134.04deg, #FFDF00 -7.01%, #FFB800 109.07%);
+    width: 30vw;
+    padding: 20px;
+    font-size: 13px; }
+  footer div.links {
+    background-image: url("footerImg.png");
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+/*# sourceMappingURL=styles.css.map */
